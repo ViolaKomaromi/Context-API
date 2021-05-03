@@ -8,7 +8,7 @@ export default function CounterA() {
     const {
         incrementHandlerA,
         counterA,
-        decrementHandler,
+        decrementHandlerA,
         resetHandlerA,
     } = useContext(CounterContext);
 
@@ -19,7 +19,7 @@ export default function CounterA() {
             <div className="Container">
         <button className='Button' onClick={incrementHandlerA}>+</button>
         <span className='Counter'>Counter : {counterA}</span>
-        <button className='Button' onClick={decrementHandler}>-</button>
+        <button className='Button' onClick={decrementHandlerA}>-</button>
         <span className='Reset' onClick ={resetHandlerA}> Reset A </span>
 
       </div>
