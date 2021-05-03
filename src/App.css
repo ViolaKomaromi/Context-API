@@ -1,0 +1,44 @@
+.App {
+  width:100%;
+  height: 100vh;
+  text-align: center;
+  background-image: url('https://imgr1.auto-motor-und-sport.de/2020-Ford-Mustang-Shelby-GT500-Muscle-Car--169FullWidth-6d9ec671-1390848.jpg');
+  background-size: cover;
+  background-position: center;
+  font-weight: bold;
+  color: azure;
+  text-shadow: 3px 3px 4px black;
+ 
+  
+}
+.App h1{
+  text-align: center;
+  padding: 5px;
+}
+.Container {
+  width:50%;
+  margin:auto;
+  margin-top:30px;
+  text-align: center;
+
+}
+.Button {
+  margin: 10px;
+  background: rgba(239, 244, 248, 0.726);
+
+}
+.Counter {
+  padding: 20px;
+  background-color: rgba(224, 216, 218, 0.555);
+  margin-top: 30px;
+}
+.Reset{
+    display:block;
+    text-align: center;
+    padding:10px;
+    border: 1px solid black;
+    margin-top: 10px;
+  background: rgba(60, 150, 224, 0.726);
+  border-radius:10px; 
+
+}
